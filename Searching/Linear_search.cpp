@@ -29,3 +29,8 @@ int main(){
 		printf("\n element not found in the list\n");
 
 }
+
+// Worst-case performance	O(n)
+// Best-case performance	O(1)
+// Average performance	O(n)
+// Worst-case space complexity	O(1) iterative
