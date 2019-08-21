@@ -47,3 +47,7 @@ int main()
 
 	binary( data,n);
 }
+
+// Time complexity: O(logn)
+// Space complexity: O(1) for iterative version
+// Space complexity: O(logn) for recursive version
