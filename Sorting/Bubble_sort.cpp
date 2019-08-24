@@ -29,3 +29,13 @@ int main(){
 	  printf("\t%d",data[i]);
 
 }
+
+//Time complexity: 
+//	O(n^2) <-- worst case, when the array is reverse sorted
+//	O(n) <-- best case, when the array is already sorted and the algorithm is modified
+//	to stop running when the inner loop doesn't perform any swap.
+//
+//Space complexity:
+//	O(1) <-- For iterative version
+// 	O(n) <-- For resursive version
+
